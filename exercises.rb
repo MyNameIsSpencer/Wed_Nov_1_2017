@@ -21,5 +21,16 @@ ages << 0
 print ages
 puts movie_dates[:dredd]
 
+#Exercise 2
+puts colours[-1]
+city_populations[:santiago] = 7300000
+coin_flips.reverse!
+puts coin_flips
+city_populations[:shanghai]
+artists.each do |item|
+  puts "#{item} has starred in some good movies"
+end
+
+
 
 #Bottom
