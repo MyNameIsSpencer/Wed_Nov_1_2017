@@ -14,7 +14,12 @@ name_ages = {:billybob => 28, :susannahan => 35, :gilgamesh => 25000}
 
 #Exercise 1
 
-
+print coin_flips
+puts colours[0]
+print ages.sort
+ages << 0
+print ages
+puts movie_dates[:dredd]
 
 
 #Bottom
