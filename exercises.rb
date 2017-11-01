@@ -22,6 +22,7 @@ puts ages
 puts movie_dates[:dredd]
 
 puts "-" * 30
+puts "-" * 30
 
 #Exercise 2
 puts colours[-1]
@@ -33,6 +34,7 @@ artists.each do |item|
   puts "#{item} has starred in some good movies"
 end
 
+puts "-" * 30
 puts "-" * 30
 
 #Exercise 3
@@ -46,8 +48,63 @@ movie_dates[:"Beauty and the Beast"] = 1991, 2017
 print movie_dates
 
 puts "-" * 30
+puts "-" * 30
 
 #Exercise 4
+
+ages.each do |age|
+  if age < 35
+    puts age
+  end
+end
+
+puts "The oldest person is #{ages.max}"
+puts "The number of head coin flips are #{coin_flips.count('heads')}"
+artists.delete_at(1)
+puts artists
+city_populations[:toronto] = 27
+puts city_populations
+
+puts "-" * 30
+puts "-" * 30
+
+#EXERCISE 5
+puts "EXERCISE 5"
+
+x = 0
+
+city_populations.each do |city, population|
+  x += population
+end
+
+puts "Total population is #{x}"
+
+
+name_ages.each do |name, age|
+  if age > 35
+    puts "#{name} is old"
+  else
+    puts "#{name} is young"
+  end
+end
+
+puts colours[-2..-1]
+
+ages.each do |age|
+  age += 1
+  puts age
+end
+
+colours += ["magenta", "gun_metal"]
+puts colours
+
+
+puts "-" * 30
+puts "-" * 30
+
+#EXERCISE 6
+puts "EXERCISE 6"
+
 
 
 
