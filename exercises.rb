@@ -102,11 +102,46 @@ puts colours
 puts "-" * 30
 puts "-" * 30
 
-#EXERCISE 6
-puts "EXERCISE 6"
+#EXERCISE 6a
+puts "EXERCISE 6a"
+
+movie_release = {
+1999 => ['The Matrix', 'Star Wars: Episode 1', 'The Mummy'],
+2009 => ['Avatar', 'Star Trek', 'District 9'],
+2019 => ['How to Train Your Dragon 3', 'Toy Story 4', 'Star Wars: Episode 9']
+}
+
+puts movie_release
+
+phone_buttons = [[1,2,3],[4,5,6],[7,8,9],['*',0,'#']]
+puts phone_buttons
+
+country_info = [{:Canada => ['North America','not island']}, {:Mexico => ['North America', 'not island']}, {:Taiwan => ['Asia','yes island']} ]
+puts country_info
+
+puts "-" * 30
+puts "-" * 30
+
+#EXERCISE 6b
+puts "EXERCISE 6b"
+
+
+puts "-" * 30
+puts "-" * 30
+
+#EXERCISE 7
+puts "EXERCISE 7"
 
 
 
+
+puts "-" * 30
+puts "-" * 30
+
+#EXERCISE 8
+puts "EXERCISE 8"
+
+stationary_
 
 # colours = ["black", "blue", "rainbow", "shade", "darkness", "green", "teal", "plaid"]
 # ages = [24, 54, 65, 61, 32, 32, 30, 33, 36, 35]
