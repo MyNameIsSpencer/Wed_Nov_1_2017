@@ -143,8 +143,9 @@ puts "-" * 30
 puts "EXERCISE 6b"
 
 puts "I will not skateboard in the halls " * 20
+
 skateboard_sentence = []
-# puts "111111111111111111"
+
 20.times do
   skateboard_sentence << "I will not skateboard in the halls "
 end
@@ -164,12 +165,19 @@ array_triple = (1..50).to_a * 3
 array_triple.sort!
 puts array_triple
 
+islands = []
+not_islands = []
+
 country_info.each do |country|
     if country[:island?] == "no"
-    puts country[:name]
+      not_islands << country[:name]
+    else
+      islands << country[:name]
   end
 end
 
+puts islands
+puts not_islands
 
 
 puts "-" * 30
@@ -209,8 +217,34 @@ puts "-" * 30
 #EXERCISE 8
 puts "EXERCISE 8"
 
-stationary_
+stationary = ['pencil', 'pen', 'ruler', 'table', 'booklet', 'textbook', 'chair', 'salmon']
+puts stationary
 
+def aster(array_x)
+  array_x.each do |item|
+    puts "* #{item}"
+  end
+end
+
+puts aster(stationary)
+
+stationary << "rice"
+
+puts aster(stationary)
+
+puts "Number of items needed #{stationary.count}"
+
+if stationary.include? 'bananas' == true
+  puts "YOU NEED BANANAS!!!"
+else
+  puts "You don't need bananas"
+end
+
+puts stationary[1]
+
+puts aster(stationary.sort)
+
+stationary.delete('delete')
 # colours = ["black", "blue", "rainbow", "shade", "darkness", "green", "teal", "plaid"]
 # ages = [24, 54, 65, 61, 32, 32, 30, 33, 36, 35]
 # coin_flips = ["heads", "tails", "heads", "heads", "heads"]
