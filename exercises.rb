@@ -1,4 +1,5 @@
 #Exercise 0
+puts "EXERCISE 0"
 
 colours = ["black", "blue", "rainbow", "shade", "darkness", "green", "teal", "plaid"]
 ages = [24, 54, 65, 61, 32, 32, 30, 33, 36, 35]
@@ -12,7 +13,12 @@ city_populations = {:toronto => 3000000, :shanghai => 18000000, :johannesburg =>
 name_ages = {:billybob => 28, :susannahan => 35, :gilgamesh => 25000}
 
 
-#Exercise 1
+puts "-" * 30
+puts "-" * 30
+
+#EXERCISE 1
+puts "EXERCISE 1"
+
 
 puts coin_flips
 puts colours[0]
@@ -25,6 +31,8 @@ puts "-" * 30
 puts "-" * 30
 
 #Exercise 2
+puts "EXERCISE 2"
+
 puts colours[-1]
 city_populations[:santiago] = 7300000
 coin_flips.reverse!
@@ -38,6 +46,8 @@ puts "-" * 30
 puts "-" * 30
 
 #Exercise 3
+puts "EXERCISE 3"
+
 puts artists[0..1]
 movie_dates.each do |movie, year|
   puts "#{movie} came out in #{year}"
@@ -51,6 +61,7 @@ puts "-" * 30
 puts "-" * 30
 
 #Exercise 4
+puts "EXERCISE 4"
 
 ages.each do |age|
   if age < 35
@@ -245,6 +256,15 @@ puts stationary[1]
 puts aster(stationary.sort)
 
 stationary.delete('delete')
+
+
+puts '-' * 30
+puts '-' * 30
+
+#Exercise 9
+puts "EXERCISE 9"
+
+
 # colours = ["black", "blue", "rainbow", "shade", "darkness", "green", "teal", "plaid"]
 # ages = [24, 54, 65, 61, 32, 32, 30, 33, 36, 35]
 # coin_flips = ["heads", "tails", "heads", "heads", "heads"]
