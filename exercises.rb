@@ -178,6 +178,28 @@ puts "-" * 30
 #EXERCISE 7
 puts "EXERCISE 7"
 
+expenses = [1200, 5500, 500, 20.50, 8.95, 350]
+puts expenses
+
+expense_counter = 0
+
+expenses.each do |cost|
+  expense_counter += cost
+end
+
+puts expense_counter
+
+def meth_summer(array_x)
+  xo = 0
+  array_x.each do |cost|
+    xo += cost
+  end
+  return xo
+end
+
+puts meth_summer(expenses)
+puts meth_summer(ages)
+puts meth_summer([1,2,4,6])
 
 
 
