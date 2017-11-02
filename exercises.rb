@@ -116,7 +116,24 @@ puts movie_release
 phone_buttons = [[1,2,3],[4,5,6],[7,8,9],['*',0,'#']]
 puts phone_buttons
 
-country_info = [{:Canada => ['North America','not island']}, {:Mexico => ['North America', 'not island']}, {:Taiwan => ['Asia','yes island']} ]
+
+canada = {:name => "Canada", :continent => 'North America', :island? => 'no'}
+mexico = {:name => "Mexico", :continent => 'North America', :island? => 'no'}
+taiwan = {:name => "Taiwan", :continent => 'Aisa', :island? => 'yes'}
+
+country_info = [
+                  {:name => "Canada",
+                  :continent => 'North America',
+                  :island? => 'no'},
+
+                  {:name => "Mexico",
+                  :continent => 'North America',
+                  :island? => 'no'},
+
+                  {:name => "Taiwan",
+                  :continent => 'Aisa',
+                  :island? => 'yes'}
+                ]
 puts country_info
 
 puts "-" * 30
@@ -124,6 +141,35 @@ puts "-" * 30
 
 #EXERCISE 6b
 puts "EXERCISE 6b"
+
+puts "I will not skateboard in the halls " * 20
+skateboard_sentence = []
+# puts "111111111111111111"
+20.times do
+  skateboard_sentence << "I will not skateboard in the halls "
+end
+puts skateboard_sentence
+
+array_fifty = (1..50).to_a
+puts array_fifty
+
+summer = 0
+array_fifty.each do |number|
+  summer += number
+end
+
+puts "The total of 1 to 50 is #{summer}"
+
+array_triple = (1..50).to_a * 3
+array_triple.sort!
+puts array_triple
+
+country_info.each do |country|
+    if country[:island?] == "no"
+    puts country[:name]
+  end
+end
+
 
 
 puts "-" * 30
