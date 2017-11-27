@@ -262,7 +262,6 @@ puts '-' * 30
 puts '-' * 30
 
 #Exercise 9
-puts "EXERCISE 9"
 
 
 # colours = ["black", "blue", "rainbow", "shade", "darkness", "green", "teal", "plaid"]
